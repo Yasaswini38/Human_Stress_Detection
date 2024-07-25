@@ -1,7 +1,7 @@
 from flask import Flask, Response, render_template
 from test2 import VideoCamera
 
-app = Flask(__name__, template_folder='D:/Human_Stress_Detection/templates')
+app = Flask(__name__)
 
 @app.route('/')
 def home():
